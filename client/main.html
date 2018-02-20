@@ -51,6 +51,51 @@ And that has made all the difference.<br>
 
     document.getElementById("stixi").style.textAlign = "center";
     </script>
+
+<div id="vvedi4islo">
+ <p>Введите число от 1 до 99:</p>
+
+ <input type="text" id="number">
+
+ <button type='button' onclick="myFunction()">Проверить</button>
+
+ <P id="result"></P>
+</div>
+
+ <script>
+ 
+ document.getElementById("vvedi4islo").style.textAlign = "center";
+
+</script>
+
+                      <script>
+                      
+                      function myFunction() {
+                        
+                        var number,result;
+
+                        number = document.getElementById('number').value;
+
+                        if (isNaN(number) || number <1 || number > 99) {
+                            result = 'Число не верное';
+                        } else {
+                            result = 'Число верное!';
+                        }
+
+                        document.getElementById('result').innerHTML = result;
+
+                      }
+
+                      </script>
+
+
+
+
+
+
+
+
+
 </body>
 
 <template name="hello">
