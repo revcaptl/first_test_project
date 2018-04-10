@@ -126,3 +126,38 @@ body {
   }
 
  /* #paragraph{ text-align: center }; */
+
+
+
+
+
+
+table {
+  /*  border: 3px solid white;*/
+   /* border-collapse: collapse;*/
+ }
+ 
+ td {
+  border-top : 2px solid green;
+}
+
+
+
+/*table {
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+
+td {
+  padding: 5px;
+  padding-right: 30px;
+  border: 1px solid lightgray;
+}
+
+th {
+ padding:10px; /* стили для ячеек-заголовков */
+ border: 1px solid black; /* добавили граници 
+}
+*/
+
+
